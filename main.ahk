@@ -103,7 +103,66 @@ What I like about working full stack is having the full picture. I get to make d
     SendText "https://www.linkedin.com/in/anish-khamkar-155174283/"
 }
 
-
+:*:@resume::{
+    SendText "
+    Anish Khamkar
+anishkhamkar7@gmail.com | 9326437759 | Mumbai, Maharashtra
+LinkedIn: linkedin.com/in/anish-khamkar | GitHub: github.com/AnishKhamkar7
+SUMMARY
+Full-stack software developer with 1.5+ years of production experience building multi-tenant SaaS
+platforms, distributed microservices, and blockchain-based systems, and AI-powered integrations.
+SKILLS
+Languages:
+Frontend:
+Backend:
+Databases:
+TypeScript, JavaScript, Go
+React, Next.js, tRPC
+Node.js, Express.js, REST APIs, WebSockets, gRPC, Hono, JWT, OAuth
+PostgreSQL, MongoDB, Redis, Prisma
+DevOps & Cloud: Docker, AWS (EC2, Managed Blockchain), Nginx, CI/CD, Microservices
+Blockchain:
+Hyperledger Fabric, Solidity
+WORK EXPERIENCE
+Pridevel Technologies
+Software Developer
+StayOps (Hotel Review Aggregator & Multi-Tenant SaaS Platform)
+Dec. 2024– Present
+Full Time
+• Designed and implemented a hybrid PostgreSQL multi-tenant architecture supporting shared-database
+tenancy for standard customers and dedicated databases for enterprise deployments.
+• Implemented tenant-aware database routing with row-level isolation for shared tenants and automated
+provisioning of encrypted dedicated databases for enterprise tenants.
+• Built distributed ingestion and automation pipelines using BullMQ, Redis, cron jobs, and n8n to ag
+gregate reviews from 3+ OTA APIs, process 10k+ API calls daily with retry and rate-limiting, and
+automate downstream review analysis and content generation.
+Supply Chain Management Platform (Blockchain, Hyperledger Fabric)
+• Designed the architecture of a blockchain-based supply chain platform using Hyperledger Fabric and
+AWS Managed Blockchain, modeling ledger structures and Go smart contracts to enable immutable
+event tracking, end-to-end traceability, and improved auditability across the supply chain.
+Liquidity Locker Platform (Web3, Solidity)
+• Built interactive workflows for asset locking, validation, and data visualization in React and TypeScript,
+ensuring seamless synchronization between on-chain smart contract state and the frontend.
+PROJECTS
+Quick Com
+React | TypeScript | Docker | Express | PostgreSQL | Socket.IO
+GitHub
+Live
+• Developed a real-time quick commerce platform supporting product browsing, cart management, order
+placement, and live delivery tracking, with a WebSocket-based event routing system for city-specific
+order assignment and real-time updates.
+• Deployed a Dockerized full-stack application on EC2 with Nginx-based reverse proxying for frontend
+delivery and REST/WebSocket traffic routing.
+EDUCATION
+Datta Meghe College of Engineering (Mumbai University)
+BE, Information Technology
+• GPA: 8.08/10
+Graduated: May 2024
+Navi Mumbai, Maharashtra
+• Relevant Coursework: OOPs, Data Structure and Algorithms, System Design, Operating Systems,
+Computer Network   
+    "
+}
 
  
 
